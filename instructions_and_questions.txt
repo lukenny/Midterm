@@ -1,9 +1,9 @@
 Instructions for Mid-Term submission and Git Review (10pts):
- - Create a git repository for your answers
+ - Create a git repository for your answers - https://github.com/lukenny/Midterm
  - Add and Commit as you work through the questions and programming problems
  - Your git log should reflect your work, don't just commit after you have finished working
  - Use .gitignore to ignore any files that are not relevant to the midterm
- - E-mail me your ssh public key
+ - E-mail me your ssh public key - done
  - I will email you back with your repository name
  - Add a remote to your git repository: git@reneedv.com:RubyFall2014/YOURREPOSITORYNAME.git
  - Push your changes to the remote
