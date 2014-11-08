@@ -5,7 +5,7 @@ Instructions for Mid-Term submission and Git Review (10pts):
  - Use .gitignore to ignore any files that are not relevant to the midterm
  - E-mail me your ssh public key - done
  - I will email you back with your repository name
- - Add a remote to your git repository: git@reneedv.com:RubyFall2014/kenny.git - done
+ - Add a remote to your git repository: git@reneedv.com:RubyFall2014/Kenny.git - done
  - Push your changes to the remote
  - After 6pm Thursday November 13th you will not be able to push to your remote repository (or clone).
 
