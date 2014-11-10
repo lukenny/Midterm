@@ -10,7 +10,7 @@ class EvenNumber
   end
 
   def EvenNumber.comparison(x,y)
-      x <=> y
+    x <=> y
   end
 
 end
