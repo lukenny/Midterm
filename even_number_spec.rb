@@ -15,7 +15,11 @@ describe EvenNumber do
   end
 
   it "should get the next even number" do
-    EvenNumber.increment([18]).should eq [20]
+    expect(EvenNumber.increment([18]).to eq [20]
+  end
+
+  it "should compare even numbers" do
+    expect(EvenNumber.comparison(18,32)).to eq -1
   end
 
 end

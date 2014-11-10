@@ -9,4 +9,8 @@ class EvenNumber
     (x).map{|x| x + 2}
   end
 
+  def EvenNumber.comparison(x,y)
+      x <=> y
+  end
+
 end
