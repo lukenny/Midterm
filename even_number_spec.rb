@@ -23,4 +23,8 @@ describe EvenNumber do
     expect(EvenNumber.comparison(28,18)).to eq 1
   end
 
+  it "should generate a range of even numbers" do
+    expect(EvenNumber.new(34)..EvenNumber.new(47)).to be_a_kind_of Range
+  end
+
 end
