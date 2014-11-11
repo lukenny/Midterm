@@ -1,4 +1,4 @@
-require_relative '../../spec_helper.rb'
+require_relative '../spec_helper.rb'
 require "#{File.dirname(__FILE__)}/turkey"
 
 describe Turkey do

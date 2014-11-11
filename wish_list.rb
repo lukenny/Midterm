@@ -8,7 +8,11 @@ class WishList
   attr_accessor :wishes
 
   def map
-    wish_list = ['1.','2.','3.','4.','5.']
+    wish_list = ['1. '],
+    wish_list = ['2. '],
+    wish_list = ['3. '],
+    wish_list = ['4. '],
+    wish_list = ['5. ']
     wish_list.zip(wishes).map{|w| w.join}
   end
 end
