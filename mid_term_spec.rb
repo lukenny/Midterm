@@ -12,7 +12,7 @@ describe Turkey do
   end
 
   it "should be a kind of animal" do
-    @turkey.kind_of?(Animal).should be_true
+    @turkey.kind_of?(Animal).should be_truthy
   end
 
   it "should gobble speak" do
