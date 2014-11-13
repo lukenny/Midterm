@@ -24,3 +24,20 @@ attr_accessor :kind, :menu, :guests
       :molds => [:cranberry, :mango, :cherry]}
   }
   end
+
+
+# expected: "Tonight we have proteins Tofurkey and Hummus, and veggies Ginger Carrots, Potatoes, and Yams."
+def whats_for_dinner
+		proteins = ["Tofurkey", "Hummus"].join(' and ')
+
+		veggies = [:ginger_carrots , :potatoes, :yams].\
+  	map{|x| x}.join(', ').split(/ |\_/).map(&:capitalize).join(" ").\
+		insert(-5, 'and ')
+
+		"Tonight we have proteins #{proteins}, and veggies #{veggies}."
+	end
+
+end
+
+class ThanksgivingDinner < Dinner
+end

@@ -1,4 +1,4 @@
-module Animal
+class Animal
   attr_reader :weight
 
 #should report the turkey weight
@@ -9,8 +9,7 @@ module Animal
 end
 
 #should be a kind of animal
-class Turkey
-   include Animal
+class Turkey < Animal
 
 #should gobble speak: "Gobble Gobble Gobble gobble Gobble. Gobble Gobb'le Gobble Gobble."
   def gobble_speak hello
